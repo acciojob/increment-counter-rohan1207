@@ -2,7 +2,7 @@
 let button = document.querySelector("#incrementBtn");
 let counter=document.querySelector("#counter")
 button.addEventListener("click",()=>{
-	alert(counter.textContent);
+	alert(parseInt(counter.textContent));
 counter.textContent=parseInt(counter.textContent)+1;
 	
 })
